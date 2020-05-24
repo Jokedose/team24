@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
-@CrossOrigin(origins = "http://172.17.0.201")
+@CrossOrigin(origins = "http://172.17.0.201:8080")
 @RestController
 @RequestMapping("/api/airport")
 public class AirportController {

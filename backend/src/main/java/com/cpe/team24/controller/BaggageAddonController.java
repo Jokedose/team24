@@ -20,7 +20,7 @@ import com.cpe.team24.entity.BaggageImage;
 
 import com.cpe.team24.repository.*;
 
-@CrossOrigin(origins = "http://172.17.0.201")
+@CrossOrigin(origins = "http://172.17.0.201:8080")
 @RestController
 @RequestMapping("/api/adds-on")
 public class BaggageAddonController {

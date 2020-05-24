@@ -108,7 +108,7 @@ import authHeader from '../../api/Auth_header'
 
 let auth = authHeader()
 let http = axios.create({
-    baseURL: 'http://172.17.0.200/api',
+    baseURL: 'http://172.17.0.200:9000/api',
     timeout: 120000,
     headers: {
         'Access-Control-Allow-Origin': '*',
@@ -158,7 +158,7 @@ export default {
         getFlightBooking() {
             http
                 .get(
-                    "http://172.17.0.200/api/flight-booking/pending/user"
+                    "http://172.17.0.200:9000/api/flight-booking/pending/user"
                 )
                 .then(res => {
                     this.flightBookings = res.data;
@@ -170,7 +170,7 @@ export default {
         getPayment() {
             http
                 .get(
-                    "http://172.17.0.200/api/payment"
+                    "http://172.17.0.200:9000/api/payment"
                 )
                 .then(res => {
                     this.payment = res.data;

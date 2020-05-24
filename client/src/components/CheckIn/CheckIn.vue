@@ -613,7 +613,7 @@ import Alert from '../Alert';
 
 var JsBarcode = require("jsbarcode");
 let axiosInstance = axios.create({
-  baseURL: "http://172.17.0.200/api",
+  baseURL: "http://172.17.0.200:9000/api",
   timeout: 120000,
   headers: {
     "Access-Control-Allow-Origin": "*",

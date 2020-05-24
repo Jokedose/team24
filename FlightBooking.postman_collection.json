@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "172.17.0.200/api/flight-city",
+					"raw": "172.17.0.200:9000/api/flight-city",
 					"host": [
 						"localhost"
 					],
@@ -30,7 +30,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "172.17.0.200/api/flight/2020-03-13/1/2",
+					"raw": "172.17.0.200:9000/api/flight/2020-03-13/1/2",
 					"host": [
 						"localhost"
 					],
@@ -68,7 +68,7 @@
 					}
 				},
 				"url": {
-					"raw": "172.17.0.200/api/flight-booking/book",
+					"raw": "172.17.0.200:9000/api/flight-booking/book",
 					"host": [
 						"localhost"
 					],
@@ -91,7 +91,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "172.17.0.200/api/flight-booking",
+					"raw": "172.17.0.200:9000/api/flight-booking",
 					"host": [
 						"localhost"
 					],
@@ -105,7 +105,7 @@
 			"response": []
 		},
 		{
-			"name": "172.17.0.200/flight/2019-12-18",
+			"name": "172.17.0.200:9000/flight/2019-12-18",
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -120,7 +120,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "172.17.0.200/api/flight/2019-12-29",
+					"raw": "172.17.0.200:9000/api/flight/2019-12-29",
 					"host": [
 						"localhost"
 					],
@@ -135,7 +135,7 @@
 			"response": []
 		},
 		{
-			"name": "172.17.0.200/api/auth/signin",
+			"name": "172.17.0.200:9000/api/auth/signin",
 			"request": {
 				"auth": {
 					"type": "noauth"
@@ -159,7 +159,7 @@
 					}
 				},
 				"url": {
-					"raw": "172.17.0.200/api/auth/login",
+					"raw": "172.17.0.200:9000/api/auth/login",
 					"host": [
 						"localhost"
 					],
@@ -174,7 +174,7 @@
 			"response": []
 		},
 		{
-			"name": "172.17.0.200/api/flight-booking/book",
+			"name": "172.17.0.200:9000/api/flight-booking/book",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -195,7 +195,7 @@
 					}
 				},
 				"url": {
-					"raw": "172.17.0.200/api/flight-booking/book",
+					"raw": "172.17.0.200:9000/api/flight-booking/book",
 					"host": [
 						"localhost"
 					],
@@ -215,7 +215,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "172.17.0.200/api/adds-on",
+					"raw": "172.17.0.200:9000/api/adds-on",
 					"host": [
 						"localhost"
 					],
@@ -234,7 +234,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "172.17.0.200/api/adds-on/50/200/1/1",
+					"raw": "172.17.0.200:9000/api/adds-on/50/200/1/1",
 					"host": [
 						"localhost"
 					],
@@ -257,7 +257,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "172.17.0.200/api/promotion",
+					"raw": "172.17.0.200:9000/api/promotion",
 					"host": [
 						"localhost"
 					],
@@ -276,7 +276,7 @@
 				"method": "POST",
 				"header": [],
 				"url": {
-					"raw": "172.17.0.200/api/promotion/TestPromotion1/This is prmotion 1/A1234/50/2020-2-2/1",
+					"raw": "172.17.0.200:9000/api/promotion/TestPromotion1/This is prmotion 1/A1234/50/2020-2-2/1",
 					"host": [
 						"localhost"
 					],
@@ -301,7 +301,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "172.17.0.200/api/promotion-image",
+					"raw": "172.17.0.200:9000/api/promotion-image",
 					"host": [
 						"localhost"
 					],
@@ -320,7 +320,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "172.17.0.200/api/adds-on",
+					"raw": "172.17.0.200:9000/api/adds-on",
 					"host": [
 						"localhost"
 					],
@@ -339,7 +339,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "172.17.0.200/api/flight/id/7",
+					"raw": "172.17.0.200:9000/api/flight/id/7",
 					"host": [
 						"localhost"
 					],
@@ -376,7 +376,7 @@
 					}
 				},
 				"url": {
-					"raw": "172.17.0.200/api/auth/login",
+					"raw": "172.17.0.200:9000/api/auth/login",
 					"host": [
 						"localhost"
 					],
@@ -403,7 +403,7 @@
 					}
 				],
 				"url": {
-					"raw": "172.17.0.200/api/payment/12/1/0853124000/toei@gg.com",
+					"raw": "172.17.0.200:9000/api/payment/12/1/0853124000/toei@gg.com",
 					"host": [
 						"localhost"
 					],
