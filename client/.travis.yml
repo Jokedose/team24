@@ -1,16 +1,7 @@
-language: node_js
-node_js:
-  - "12"
-cache: yarn
-branches:
-  only:
-  - master
-before_script:
-  - docker build -t front .
-install:
-  - yarn
+sudo: required
+services:
+  - docker
 script:
-  - yarn
   - docker build -t front .
 after_success:
   - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
@@ -18,16 +9,3 @@ after_success:
   - docker push $DOCKER_USER/front:$TRAVIS_BUILD_NUMBER
   - docker tag front $DOCKER_USER/front:latest
   - docker push $DOCKER_USER/front:latest
-
-
-# sudo: required
-# services:
-#   - docker
-# script:
-#   - docker build -t front .
-# after_success:
-#   - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-#   - docker tag front $DOCKER_USER/front:$TRAVIS_BUILD_NUMBER
-#   - docker push $DOCKER_USER/front:$TRAVIS_BUILD_NUMBER
-#   - docker tag front $DOCKER_USER/front:latest
-#   - docker push $DOCKER_USER/front:latest
