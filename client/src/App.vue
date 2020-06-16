@@ -2,6 +2,7 @@
   <v-app>
     <v-content>
       <router-view/>
+      newNormal
     </v-content>
   </v-app>
 </template>
